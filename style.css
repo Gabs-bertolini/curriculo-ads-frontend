@@ -1,0 +1,33 @@
+h1
+{
+    background-color: #B89995;
+    position: relative;
+    color: rgb(194, 201, 207);
+}
+
+p
+{
+    color: rgb(194, 201, 207);
+}
+
+.foto-perfil
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+}
+
+.header-container
+{
+    background-color: #5B8D76;
+    position: static;
+}
+
+body
+{
+    background-color: #B89995;
+    padding: 0;
+    margin: 0;
+}
