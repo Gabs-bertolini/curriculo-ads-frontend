@@ -1,7 +1,11 @@
-h1
+body {
+    font-family: "Atkinson Hyperlegible Mono", serif;
+  }
+
+/*h1
 {
-    background-color: #B89995;
-    position: relative;
+    text-align: center;
+   
     color: rgb(194, 201, 207);
 }
 
@@ -9,25 +13,47 @@ p
 {
     color: rgb(194, 201, 207);
 }
-
-.foto-perfil
-{
+*/
+.foto-perfil 
+{   
+    box-shadow: 100px;
     width: 300px;
     height: 300px;
     border-radius: 20px;
-    position: relative;
-    align-items: center;
+}
+
+.foto-perfil .h1
+{
+    text-shadow: #000000;
 }
 
 .header-container
-{
-    background-color: #5B8D76;
-    position: static;
+{   
+    padding-top: 80px;
+    background: rgb(54,96,170);
+    background: radial-gradient(circle, rgba(54,96,170,1) 0%, rgba(209,239,205,1) 35%, rgba(54,96,170,1) 100%);
+    /*background-color: #3660AA;*/
+    text-align: center;
 }
 
 body
 {
-    background-color: #B89995;
+    background-color: #81894E;
     padding: 0;
     margin: 0;
+}
+
+section
+{
+    margin: 20px;
+    padding: 20px;
+    background: #DAB672;
+    border-radius: 20px;
+    box-shadow: #000000;
+}
+
+footer
+{
+    text-align: center;
+    padding: 10px;
 }
